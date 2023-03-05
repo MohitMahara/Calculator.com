@@ -1,7 +1,9 @@
 // for targeting toggler
 
 document.getElementById("nav-toggle").addEventListener("click", function () {
-    document.querySelector(".item-list").classList.toggle("active");
+    document.querySelector(".item-list").classList.toggle("active");   
+    document.querySelector("nav").classList.toggle("show");
+    
 });
 
 
