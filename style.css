@@ -172,6 +172,9 @@ input[type="text"]{
         font-size: 1.2rem;
      }
 
+     nav{
+         overflow: hidden;
+    }
 
 
     .nav-container {
